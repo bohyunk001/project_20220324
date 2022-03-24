@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bohyunk001/my-server.git"
+  },
+  "author": "Jennifer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bohyunk001/my-server/issues"
+  },
+  "homepage": "https://github.com/bohyunk001/my-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "readline-sync": "^1.4.10"
+  }
+}
